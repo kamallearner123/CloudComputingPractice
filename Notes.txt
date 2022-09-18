@@ -1,0 +1,10 @@
+API     To interact with Kube cluster                                                                                                                                                                              
+etcd    Key-value store, all data used to manage cluster
+scheduler   Distributing the work
+contoller   Brain  behind archestration, make decision bring up new containers
+container runtime:  Heart, bring up containers
+kubelet: runs on each node on cluster, agnent responsible to make run containers as expected.
+ 
+ 
+Container runtime here is Docker.
+ 
